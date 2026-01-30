@@ -1,6 +1,6 @@
 {
-  "version": "2026.01.32",
-  "lastUpdated": "2026-01-30T06:26:16.171Z",
+  "version": "2026.01.33",
+  "lastUpdated": "2026-01-30T06:29:03.348Z",
   "stats": {
     "totalBrands": 15,
     "totalCompanies": 15,
@@ -23,8 +23,8 @@
       "riskLevel": "high",
       "category": "家電",
       "subcategory": "掃地機器人",
-      "warningMessage": "⚠️ 石頭機器人已被中資小米集團收購，可能有潛在的資安風險與資料外洩疑慮",
-      "detailedInfo": "石頭科技為中國小米生態鏈企業，產品內建連網功能，用戶使用數據可能傳輸至中國伺服器",
+      "warningMessage": "⚠️ 石頭科技為中國小米生態鏈企業，可能有潛在的資安風險與資料外洩疑慮。",
+      "detailedInfo": "石頭科技為中國小米生態鏈企業，產品內建連網功能，用戶使用數據可能傳輸至中國伺服器。",
       "aliases": [
         "Roborock",
         "石頭掃地機器人",
