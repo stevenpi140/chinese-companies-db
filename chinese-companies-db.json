@@ -1,12 +1,12 @@
 {
-  "version": "2026.01.34",
-  "lastUpdated": "2026-01-30T06:38:38.054Z",
+  "version": "2026.01.35",
+  "lastUpdated": "2026-01-30T06:56:30.478Z",
   "stats": {
     "totalBrands": 15,
     "totalCompanies": 15,
     "riskLevels": {
-      "high": 9,
-      "medium": 6,
+      "high": 10,
+      "medium": 5,
       "low": 0
     }
   },
@@ -173,7 +173,7 @@
     "TP-Link": {
       "company": "普聯技術有限公司",
       "parentCompany": "普聯技術",
-      "riskLevel": "medium",
+      "riskLevel": "high",
       "category": "3C",
       "subcategory": "網路設備",
       "warningMessage": "⚠️ TP-Link為中國企業，路由器產品曾被發現安全漏洞與後門",
@@ -184,12 +184,6 @@
         "Deco",
         "TP-Link路由器",
         "TP-Link分享器"
-      ],
-      "evidence": [
-        {
-          "title": "TP-Link路由器安全漏洞報告",
-          "url": "https://www.example.com/news/tplink-vulnerabilities"
-        }
       ]
     },
     "美的": {
