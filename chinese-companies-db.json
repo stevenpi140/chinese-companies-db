@@ -1,12 +1,12 @@
 {
-  "version": "2026.01.33",
-  "lastUpdated": "2026-01-30T06:29:03.348Z",
+  "version": "2026.01.34",
+  "lastUpdated": "2026-01-30T06:38:38.054Z",
   "stats": {
     "totalBrands": 15,
     "totalCompanies": 15,
     "riskLevels": {
-      "high": 8,
-      "medium": 7,
+      "high": 9,
+      "medium": 6,
       "low": 0
     }
   },
@@ -264,20 +264,16 @@
       "evidence": []
     },
     "OPPO": {
-      "company": "廣東歐珀移動通信有限公司",
+      "company": "廣東歐加控股有限公司",
       "parentCompany": "步步高集團",
-      "riskLevel": "medium",
+      "riskLevel": "high",
       "category": "3C",
       "subcategory": "手機",
-      "warningMessage": "⚠️ OPPO為中國企業，手機內建ColorOS系統可能收集用戶數據",
-      "detailedInfo": "OPPO與vivo、OnePlus同屬步步高集團，手機系統有中國版本差異，數據處理存在疑慮",
+      "warningMessage": "這間公司成立於中國境內，且背後資金來自中國。",
+      "detailedInfo": "《OPPO》是中國智慧型手機製造商，專注於研發、製造和銷售智慧型手機及相關電子產品，該公司原先隸屬《步步高》。",
       "aliases": [
-        "歐珀",
-        "一加",
-        "OnePlus",
-        "realme"
-      ],
-      "evidence": []
+        "oppo"
+      ]
     },
     "vivo": {
       "company": "維沃移動通信有限公司",
