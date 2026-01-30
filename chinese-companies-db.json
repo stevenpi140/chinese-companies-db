@@ -1,13 +1,13 @@
 {
-  "version": "2026.01.30",
-  "lastUpdated": "2026-01-30T12:00:00Z",
+  "version": "2026.01.31",
+  "lastUpdated": "2026-01-30T06:25:20.136Z",
   "stats": {
     "totalBrands": 15,
-    "totalCompanies": 12,
+    "totalCompanies": 15,
     "riskLevels": {
-      "high": 10,
-      "medium": 3,
-      "low": 2
+      "high": 8,
+      "medium": 7,
+      "low": 0
     }
   },
   "metadata": {
@@ -25,7 +25,15 @@
       "subcategory": "掃地機器人",
       "warningMessage": "⚠️ 石頭機器人已被中資小米集團收購，可能有潛在的資安風險與資料外洩疑慮",
       "detailedInfo": "石頭科技為中國小米生態鏈企業，產品內建連網功能，用戶使用數據可能傳輸至中國伺服器",
-      "aliases": ["Roborock", "石頭掃地機器人", "石頭", "石頭掃地機", "Roborock S8", "Roborock Q5", "Roborock S7"],
+      "aliases": [
+        "Roborock",
+        "石頭掃地機器人",
+        "石頭",
+        "石頭掃地機",
+        "Roborock S8",
+        "Roborock Q5",
+        "Roborock S7"
+      ],
       "evidence": [
         {
           "title": "小米集團投資石頭科技",
@@ -36,7 +44,11 @@
       "dataTransmission": {
         "hasCloudConnection": true,
         "serverLocation": "中國",
-        "dataTypes": ["使用習慣", "家庭地圖", "WiFi資訊"]
+        "dataTypes": [
+          "使用習慣",
+          "家庭地圖",
+          "WiFi資訊"
+        ]
       }
     },
     "小米": {
@@ -47,7 +59,16 @@
       "subcategory": "手機/家電",
       "warningMessage": "⚠️ 小米為中國企業，產品內建MIUI系統可能收集用戶數據並傳輸至中國",
       "detailedInfo": "小米公司註冊於開曼群島但實際控制權在中國，產品有資安疑慮且曾被多國政府警告",
-      "aliases": ["Xiaomi", "MI", "紅米", "Redmi", "POCO", "米家", "小米手環", "小米電視"],
+      "aliases": [
+        "Xiaomi",
+        "MI",
+        "紅米",
+        "Redmi",
+        "POCO",
+        "米家",
+        "小米手環",
+        "小米電視"
+      ],
       "evidence": [
         {
           "title": "台灣國安局警告小米手機資安風險",
@@ -57,7 +78,12 @@
       "dataTransmission": {
         "hasCloudConnection": true,
         "serverLocation": "中國/新加坡",
-        "dataTypes": ["通訊錄", "簡訊", "使用習慣", "位置資訊"]
+        "dataTypes": [
+          "通訊錄",
+          "簡訊",
+          "使用習慣",
+          "位置資訊"
+        ]
       }
     },
     "華為": {
@@ -68,14 +94,27 @@
       "subcategory": "手機/通訊設備",
       "warningMessage": "🚨 華為為中國軍方背景企業，遭多國政府禁用，資安與國安風險極高",
       "detailedInfo": "華為創辦人任正非為解放軍退伍軍官，公司與中國軍方關係密切，被美國、英國、澳洲等國列入黑名單",
-      "aliases": ["Huawei", "榮耀", "Honor", "華為手機", "華為路由器", "華為平板"],
+      "aliases": [
+        "Huawei",
+        "榮耀",
+        "Honor",
+        "華為手機",
+        "華為路由器",
+        "華為平板"
+      ],
       "evidence": [
         {
           "title": "美國商務部將華為列入實體清單",
           "url": "https://www.example.com/news/huawei-ban"
         }
       ],
-      "sanctionedBy": ["美國", "英國", "澳洲", "日本", "台灣"]
+      "sanctionedBy": [
+        "美國",
+        "英國",
+        "澳洲",
+        "日本",
+        "台灣"
+      ]
     },
     "聯想": {
       "company": "聯想集團",
@@ -85,7 +124,13 @@
       "subcategory": "電腦/筆電",
       "warningMessage": "⚠️ 聯想為中國國企背景企業，產品曾被發現預裝惡意軟體",
       "detailedInfo": "聯想由中國科學院計算技術研究所創辦，具有官方背景，多次被資安研究人員發現預裝間諜軟體",
-      "aliases": ["Lenovo", "ThinkPad", "ThinkCentre", "聯想筆電", "聯想電腦"],
+      "aliases": [
+        "Lenovo",
+        "ThinkPad",
+        "ThinkCentre",
+        "聯想筆電",
+        "聯想電腦"
+      ],
       "evidence": [
         {
           "title": "聯想預裝Superfish惡意軟體事件",
@@ -101,14 +146,19 @@
       "subcategory": "無人機",
       "warningMessage": "⚠️ 大疆為中國企業，無人機數據可能傳輸至中國政府，已被美國軍方禁用",
       "detailedInfo": "大疆佔全球無人機市場70%以上，但產品被發現會自動回傳飛行數據至中國伺服器",
-      "aliases": ["DJI", "Mavic", "Phantom", "大疆無人機", "空拍機"],
+      "aliases": [
+        "DJI",
+        "Mavic",
+        "Phantom",
+        "大疆無人機",
+        "空拍機"
+      ],
       "evidence": [
         {
           "title": "美國軍方禁用大疆無人機",
           "url": "https://www.example.com/news/dji-ban"
         }
       ]
-      
     },
     "海康威視": {
       "company": "杭州海康威視數字技術股份有限公司",
@@ -118,14 +168,23 @@
       "subcategory": "監控設備",
       "warningMessage": "🚨 海康威視為中國國企，監控設備遭多國政府禁用，資安風險極高",
       "detailedInfo": "海康威視是中國國有企業，專門生產監控設備，被美國列入實體清單，產品有後門疑慮",
-      "aliases": ["Hikvision", "海康", "Hikvision攝影機", "海康監視器"],
+      "aliases": [
+        "Hikvision",
+        "海康",
+        "Hikvision攝影機",
+        "海康監視器"
+      ],
       "evidence": [
         {
           "title": "美國將海康威視列入實體清單",
           "url": "https://www.example.com/news/hikvision-ban"
         }
       ],
-      "sanctionedBy": ["美國", "英國", "澳洲"]
+      "sanctionedBy": [
+        "美國",
+        "英國",
+        "澳洲"
+      ]
     },
     "TP-Link": {
       "company": "普聯技術有限公司",
@@ -135,7 +194,13 @@
       "subcategory": "網路設備",
       "warningMessage": "⚠️ TP-Link為中國企業，路由器產品曾被發現安全漏洞與後門",
       "detailedInfo": "TP-Link是中國知名網通品牌，產品多次被發現重大安全漏洞，部分型號有固件後門疑慮",
-      "aliases": ["普聯", "Archer", "Deco", "TP-Link路由器", "TP-Link分享器"],
+      "aliases": [
+        "普聯",
+        "Archer",
+        "Deco",
+        "TP-Link路由器",
+        "TP-Link分享器"
+      ],
       "evidence": [
         {
           "title": "TP-Link路由器安全漏洞報告",
@@ -151,7 +216,13 @@
       "subcategory": "綜合家電",
       "warningMessage": "⚠️ 美的為中國大型家電企業，智慧家電產品可能收集用戶數據",
       "detailedInfo": "美的為中國最大家電製造商之一，近年積極發展智慧家電與IoT產品，有數據外洩風險",
-      "aliases": ["Midea", "美的冷氣", "美的冰箱", "美的洗衣機", "東芝家電"],
+      "aliases": [
+        "Midea",
+        "美的冷氣",
+        "美的冰箱",
+        "美的洗衣機",
+        "東芝家電"
+      ],
       "evidence": [
         {
           "title": "美的收購東芝家電業務",
@@ -167,7 +238,13 @@
       "subcategory": "綜合家電",
       "warningMessage": "⚠️ 海爾為中國企業，智慧家電產品連網功能有數據傳輸疑慮",
       "detailedInfo": "海爾是中國知名家電品牌，旗下智慧家電產品會連接雲端伺服器，用戶數據可能儲存於中國",
-      "aliases": ["Haier", "海爾冰箱", "海爾洗衣機", "卡薩帝", "Casarte"],
+      "aliases": [
+        "Haier",
+        "海爾冰箱",
+        "海爾洗衣機",
+        "卡薩帝",
+        "Casarte"
+      ],
       "evidence": []
     },
     "格力": {
@@ -178,7 +255,11 @@
       "subcategory": "空調",
       "warningMessage": "⚠️ 格力為中國國企背景企業，空調產品有智慧連網功能",
       "detailedInfo": "格力由珠海市國資委控制，雖然傳統空調產品風險較低，但智慧型產品有連網數據風險",
-      "aliases": ["Gree", "格力冷氣", "格力空調"],
+      "aliases": [
+        "Gree",
+        "格力冷氣",
+        "格力空調"
+      ],
       "evidence": []
     },
     "TCL": {
@@ -189,7 +270,13 @@
       "subcategory": "電視/顯示器",
       "warningMessage": "⚠️ TCL為中國企業，智慧電視產品可能收集觀看數據並傳輸至中國",
       "detailedInfo": "TCL是中國第二大電視製造商，智慧電視內建系統會追蹤用戶觀看習慣並回傳數據",
-      "aliases": ["TCL電視", "阿爾卡特", "Alcatel", "黑莓手機", "BlackBerry"],
+      "aliases": [
+        "TCL電視",
+        "阿爾卡特",
+        "Alcatel",
+        "黑莓手機",
+        "BlackBerry"
+      ],
       "evidence": []
     },
     "OPPO": {
@@ -200,7 +287,12 @@
       "subcategory": "手機",
       "warningMessage": "⚠️ OPPO為中國企業，手機內建ColorOS系統可能收集用戶數據",
       "detailedInfo": "OPPO與vivo、OnePlus同屬步步高集團，手機系統有中國版本差異，數據處理存在疑慮",
-      "aliases": ["歐珀", "一加", "OnePlus", "realme"],
+      "aliases": [
+        "歐珀",
+        "一加",
+        "OnePlus",
+        "realme"
+      ],
       "evidence": []
     },
     "vivo": {
@@ -211,7 +303,11 @@
       "subcategory": "手機",
       "warningMessage": "⚠️ vivo為中國企業，手機內建FuntouchOS可能收集用戶數據",
       "detailedInfo": "vivo與OPPO同屬步步高集團，在中國市場占有率極高，產品有數據傳輸疑慮",
-      "aliases": ["維沃", "iQOO", "vivo手機"],
+      "aliases": [
+        "維沃",
+        "iQOO",
+        "vivo手機"
+      ],
       "evidence": []
     },
     "九號公司": {
@@ -222,7 +318,13 @@
       "subcategory": "電動滑板車/平衡車",
       "warningMessage": "⚠️ 九號公司為小米生態鏈企業，產品連網功能有數據傳輸至中國風險",
       "detailedInfo": "九號公司（Segway-Ninebot）為小米生態鏈企業，電動滑板車與平衡車產品會連接中國伺服器",
-      "aliases": ["Ninebot", "Segway", "九號平衡車", "九號電動車", "小米平衡車"],
+      "aliases": [
+        "Ninebot",
+        "Segway",
+        "九號平衡車",
+        "九號電動車",
+        "小米平衡車"
+      ],
       "evidence": [
         {
           "title": "九號公司為小米生態鏈企業",
@@ -237,15 +339,37 @@
       "category": "家電",
       "subcategory": "掃地機器人/吸塵器",
       "warningMessage": "⚠️ 追覓為中國企業，掃地機器人有連網傳輸數據至中國風險",
-      "detailedInfo": "追覓科技是中國新興智慧家電品牌，掃地機器人與吸塵器產品會連接雲端並傳輸使用數據",
-      "aliases": ["Dreame", "追覓掃地機器人", "追覓吸塵器"],
-      "evidence": []
+      "detailedInfo": "追覓科技是中國智慧家電品牌，掃地機器人與吸塵器產品會連接雲端並傳輸使用數據。",
+      "aliases": [
+        "Dreame",
+        "追覓掃地機器人",
+        "追覓吸塵器",
+        "追覓"
+      ]
     }
   },
   "categories": {
-    "家電": ["石頭科技", "美的", "海爾", "格力", "追覓"],
-    "3C": ["小米", "華為", "聯想", "大疆", "海康威視", "TP-Link", "TCL", "OPPO", "vivo"],
-    "交通工具": ["九號公司"]
+    "家電": [
+      "石頭科技",
+      "美的",
+      "海爾",
+      "格力",
+      "追覓"
+    ],
+    "3C": [
+      "小米",
+      "華為",
+      "聯想",
+      "大疆",
+      "海康威視",
+      "TP-Link",
+      "TCL",
+      "OPPO",
+      "vivo"
+    ],
+    "交通工具": [
+      "九號公司"
+    ]
   },
   "riskLevelDefinitions": {
     "high": {
