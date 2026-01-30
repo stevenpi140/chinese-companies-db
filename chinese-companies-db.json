@@ -1,6 +1,6 @@
 {
-  "version": "2026.01.31",
-  "lastUpdated": "2026-01-30T06:25:20.136Z",
+  "version": "2026.01.32",
+  "lastUpdated": "2026-01-30T06:26:16.171Z",
   "stats": {
     "totalBrands": 15,
     "totalCompanies": 15,
@@ -33,23 +33,7 @@
         "Roborock S8",
         "Roborock Q5",
         "Roborock S7"
-      ],
-      "evidence": [
-        {
-          "title": "小米集團投資石頭科技",
-          "url": "https://www.example.com/news/xiaomi-roborock"
-        }
-      ],
-      "acquiredDate": "2016-03-01",
-      "dataTransmission": {
-        "hasCloudConnection": true,
-        "serverLocation": "中國",
-        "dataTypes": [
-          "使用習慣",
-          "家庭地圖",
-          "WiFi資訊"
-        ]
-      }
+      ]
     },
     "小米": {
       "company": "小米集團",
